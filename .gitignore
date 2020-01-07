@@ -1,4 +1,5 @@
 *
+# exclude all files but not the following files
 !scripts
 !scripts/*
 !scripts/common
@@ -14,6 +15,7 @@ scripts/.snakemake*
 !environment.yaml
 !LICENSE
 !README.md
+!readme.txt
 !rules
 !rules/*
 !.gitignore
